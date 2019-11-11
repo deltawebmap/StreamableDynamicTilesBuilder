@@ -5,4 +5,15 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0007" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ArkSaveEditor\ArkSaveEditor\ArkSaveEditor.csproj" />
+    <ProjectReference Include="..\..\LibDeltaSystem\LibDeltaSystem\LibDeltaSystem.csproj" />
+    <ProjectReference Include="..\..\StreamableDynamicTiles\StreamableDynamicTiles\StreamableDynamicTiles.csproj" />
+  </ItemGroup>
+
 </Project>

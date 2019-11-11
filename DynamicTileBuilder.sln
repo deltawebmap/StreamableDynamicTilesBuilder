@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTileBuilder", "DynamicTileBuilder\DynamicTileBuilder.csproj", "{42E9600A-63DC-4166-AD8F-1624BC3C2F26}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamableDynamicTiles", "..\StreamableDynamicTiles\StreamableDynamicTiles\StreamableDynamicTiles.csproj", "{55E4BCBC-3AA4-475D-BDD9-B96D04B2DDC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibDeltaSystem", "..\LibDeltaSystem\LibDeltaSystem\LibDeltaSystem.csproj", "{0A2521D1-9C73-4288-8F77-B5F46521D1CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArkSaveEditor", "..\ArkSaveEditor\ArkSaveEditor\ArkSaveEditor.csproj", "{8CFE9450-F48F-43DD-B3F9-6EB702853EBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{42E9600A-63DC-4166-AD8F-1624BC3C2F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42E9600A-63DC-4166-AD8F-1624BC3C2F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42E9600A-63DC-4166-AD8F-1624BC3C2F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E4BCBC-3AA4-475D-BDD9-B96D04B2DDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E4BCBC-3AA4-475D-BDD9-B96D04B2DDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E4BCBC-3AA4-475D-BDD9-B96D04B2DDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E4BCBC-3AA4-475D-BDD9-B96D04B2DDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2521D1-9C73-4288-8F77-B5F46521D1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2521D1-9C73-4288-8F77-B5F46521D1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2521D1-9C73-4288-8F77-B5F46521D1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2521D1-9C73-4288-8F77-B5F46521D1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFE9450-F48F-43DD-B3F9-6EB702853EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFE9450-F48F-43DD-B3F9-6EB702853EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFE9450-F48F-43DD-B3F9-6EB702853EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFE9450-F48F-43DD-B3F9-6EB702853EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
